@@ -1,0 +1,12 @@
+body
+{
+    background-color:rgb(1, 135, 158)
+}
+caption{
+    background-image: url(hun.webp);
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(110, 121, 219) ;
+}

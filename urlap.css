@@ -1,0 +1,14 @@
+body{
+    background-color: dodgerblue;
+}
+
+
+h1{
+    background-image: url(wpkep.jpg);
+    color: aqua;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(110, 121, 219) ;
+}

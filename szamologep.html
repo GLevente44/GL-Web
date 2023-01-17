@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+    <link rel="stylesheet" href="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(110, 121, 219);
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: rgb(24, 221, 188);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: rgb(11, 197, 253);
+    }
+    
+    .active {
+      background-color: #1345b3;  
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(110, 121, 219) ;
+}
+    </style>
+
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">[Főoldal]</a></li>
+        <li><a href="keplink.html">[Képlinkes feladatom]</a></li>
+        <li><a href="lista.html">[Listáim]</a></li>
+        <li><a href="tablazat.html">[Órarendem]</a></li>
+        <li><a href="urlap.html">[Űrlapom]</a></li>
+        <li><a href="evszakok.html">[Évszakok]</a></li>
+        <li><a class="active" href="szamologep.html">[Számológép]</a></li>
+      </ul>
+      
+      <form action="javascript:void(0)">
+        <fieldset>
+            <legend>Számológép</legend>
+            <input type="number" name="szam" id="szam1" placeholder="SZÁM 1"> .
+            <input type="number" name="szam" id="szam2" placeholder="SZÁM 2"> =
+            <input type="text" id="eredmeny" placeholder="eredmény" readonly>
+            <br><br>
+            <label for="muv">művelet:</label>
+            <input type="button" name="muv" value="+" onclick="ad()">
+            <input type="button" name="muv" value="-" onclick="kiv()">
+            <input type="button" name="muv" value="*" onclick="szor()">
+            <input type="button" name="muv" value="/" onclick="oszt()">
+
+
+
+            <input type="reset" name="muv" value="DEL">
+        </fieldset>
+</form>
+      <script>
+
+        function ad() {
+            eredmeny.value = Number(szam1.value) + Number(szam2.value);
+        }
+
+        function kiv() {
+eredmeny.value = Number(szam1.value) - Number(szam2.value);
+}
+
+function szor() {
+    eredmeny.value = Number(szam1.value) * Number(szam2.value);
+}
+
+function oszt() {
+    eredmeny.value = Number(szam1.value) / Number(szam2.value);
+}
+      </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <p> Email-es elérhetőségeim:<br>
+      Gmail:
+    <a href="mailto:gecselevi15@gmail.com"> gecselevi15@gmail.com</a></p>
+    Vagy "céges" emailem: 
+    <a href="mailto:gecsel@kkszki.hu">gecsel@kkszki.hu</a>
+  </footer>
+</body>
+</html>
